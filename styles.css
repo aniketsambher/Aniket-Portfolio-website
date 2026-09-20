@@ -302,6 +302,24 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -0.02em; margin: 0; }
 .card__text { margin: 0; color: var(--text-muted); font-size: .94rem; }
 .card__text strong { color: var(--text); font-weight: 600; }
 
+.card .tags { margin-top: 1rem; }
+
+.card__links {
+  margin: 1rem 0 0;
+  display: flex;
+  gap: 1.1rem;
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+.subhead {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 3rem 0 1.25rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
 .tags { display: flex; flex-wrap: wrap; gap: .45rem; list-style: none; margin: 0; padding: 0; }
 .tags li {
   font-family: var(--font-mono);
