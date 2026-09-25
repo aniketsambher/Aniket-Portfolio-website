@@ -217,26 +217,6 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -0.02em; margin: 0; }
 .btn--primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); color: #fff; }
 [data-theme="light"] .btn--primary:hover { color: #fff; }
 
-.hero__stats {
-  list-style: none;
-  margin: 3.5rem 0 0;
-  padding: 0;
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  max-width: 46rem;
-}
-.hero__stats li { display: flex; flex-direction: column; gap: .2rem; }
-
-.stat__num {
-  font-family: var(--font-mono);
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: var(--accent);
-  line-height: 1;
-}
-.stat__label { font-size: .88rem; color: var(--text-muted); }
-
 /* ── Experience / Education entries ─────────── */
 
 .job {
