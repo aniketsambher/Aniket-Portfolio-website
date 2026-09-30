@@ -166,22 +166,6 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -0.02em; margin: 0; }
     var(--bg);
 }
 
-.hero__inner {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 3rem;
-}
-
-.hero__photo {
-  width: 190px;
-  height: 190px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid var(--border);
-  box-shadow: var(--shadow);
-}
-
 .hero__eyebrow {
   font-family: var(--font-mono);
   font-size: .82rem;
@@ -348,8 +332,6 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -0.02em; margin: 0; }
   .nav__links { display: none; }
   .section { padding: 3.5rem 0; }
   .hero { padding: 4rem 0 3.5rem; }
-  .hero__inner { grid-template-columns: 1fr; gap: 1.75rem; }
-  .hero__photo { width: 128px; height: 128px; }
   .job { grid-template-columns: 1fr; gap: .75rem; padding: 1.6rem 0; }
   .job__meta { display: flex; gap: 1rem; }
 }
